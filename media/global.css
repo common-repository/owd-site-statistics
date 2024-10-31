@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+.owdstats { margin: 1em 0; padding: 6px; width: 100%; background: #fff url('brighter.png') repeat-x 0 bottom; color: #252525; border: 1px solid #e0e0e0; border-bottom-color: #bfbfbf; border-right-color: #bfbfbf; -moz-border-radius: 6px; -khtml-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+    .owdstats thead th { padding: 4px 0 8px; vertical-align: top; font-size: 12px; text-align: left; color: #a8a8a8; font-weight: 500; border-bottom: 1px solid #e3e3e3; }
+    .owdstats thead th span { display: block; margin: 0 0 4px; font-size: 10px; }
+    .owdstats tbody td { border-bottom: 1px dotted #e2e2e2; padding: 3px 0 4px; }
+
+	.owdstats.totals { background-position: 0 0; }
+    .owdstats.totals td { padding: 6px 0 0; border: none; border-left: 2px solid #fff; border-right: 1px solid #dadada; font-size: 24px; line-height: 34px; text-align: center; color: #222; font-weight: 500; -moz-border-radius-topright: 6px; -khtml-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -khtml-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; border-top-left-radius: 6px; }
+    .owdstats.totals th { padding: 0 0 6px; border-left: 2px solid #fff; border-right: 1px solid #ddd; font-size: 12px; line-height: 18px; color: #888; font-weight: 500; }
+
+
+.updated { padding: 0.1em 0.6em; }
+.error { padding: 0.1em 0.6em; }
+
+ul.links li { margin-left: 1em; padding-left: 20px; background: transparent url('link_go.png') no-repeat 0 50%; }
+
+ul.options { margin: 18px 0 12px; width: 100%; background-color: #f1f1f1; color: #757575; }
+ul.options li { display: inline; margin: 4px 8px 4px 0; padding: 6px 12px; background-color: #fafafa; border: 1px solid #e4e4e4; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;  }
+ul.options li a { font-weight: 700; }
+
+.postbox .aside { padding: 4px; background-color: #fafafa; border: 1px solid #e4e4e4; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.postbox form.aside label { margin-left: 6px; position: relative; top: -2px; }
+/* .postbox form.aside input[type='text'] { width: 98%; }
+/* Tables and general formatting */
+
+
+.owd_stats_notice { margin: 0.4em 0; padding: 3px 6px; font-size: 12px; line-height: 18px; font-weight: 700; font-style: italic; background-color: #fefdeb; border: 1px solid #e6db55; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.owd_stats_submit { margin: 5px 0; padding: 0.5em 0; }
+.owd_stats_submit.center { text-align: center; }
+
+
+/* Charts */
+
+.sc_visitors { background: #114477; }
+.sc_pageviews { background: #3377B6; }
+.sc_spiders { background: #83b4d8; }
+.sc_feeds { background: #f38f36; }
+
+.bg_visitors { background: #114477 url('shade.png') repeat-y 100%; }
+.bg_pageviews { background: #3377B6 url('shade.png') repeat-y 100%; }
+.bg_spiders { background: #83b4d8 url('shade.png') repeat-y 100%; }
+.bg_feeds { background: #f38f36 url('shade.png') repeat-y 100%; }
+
+.boxes { width: 10px; height: 10px; float: left; margin: 4px 5px 0 0; }
+
+
+/* Admin Panel */
+
+
+#owdadmin .intro { margin: 1em 0 0.5em; padding: 2px 0.5em; color: #353535; }
+#owdadmin .intro p { font-size: 12px; }
+#owdadmin strong { color: #555; }
+
+	#owdadmin fieldset { margin: 0.5em 0; padding: 6px 0.5em; }
+
+    #owdadmin dl { clear: both; list-style: none; margin: 0; padding: 0; border: 1px solid #eee; background: #f6f6f6; font-size: 0; height: 2px; -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+        #owdadmin dl dt {  font-size: 12px; clear: both; float:left; width: 35%; margin: 6px 0; padding:2px 8px 10px 2px; cursor: default; }
+        #owdadmin dl dt label { font-size: 12px; font-weight: 700; color: #454545; cursor: default; }
+        #owdadmin dl dt p { margin-top: 1px; padding-top: 6px; font-size: 0.9em; border-top: 1px dotted #dfdfdf;line-height: 1.1em; color: #aaa; }
+
+        #owdadmin dl dd { margin: 20px 0; padding: 8px 0 0 10px; float:left; width: 60%; color:#333; }
+        #owdadmin dl dd span { margin: 0 3em 0 0.5em; font-size: 12px; position: relative; top: 2px; }
+        #owdadmin dl:hover dt, #owdadmin dl:hover dd { border-color:#666; }
+        #owdadmin dl:hover dt label { color:#000; }
+        #owdadmin dl:hover dt p { color: #BC2A4D; }
+
+		#owdadmin textarea { min-width: 300px; }
+        #owdadmin select { min-width: 140px; }
+
+        input[type='checkbox'] { position: relative; top: -1px; }
+        input[type='radio'] { position: relative; top: -3px; }

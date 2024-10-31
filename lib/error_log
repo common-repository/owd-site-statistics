@@ -1,0 +1,6 @@
+[27-Jan-2016 09:41:56 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[27-Jan-2016 09:41:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/polli/public_html/dev/bergerz/wp/wp-content/plugins/owd-site-statistics/lib/_async.php on line 39
+[01-Feb-2016 07:45:08 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[01-Feb-2016 07:45:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/polli/public_html/dev/bergerz/wp/wp-content/plugins/owd-site-statistics/lib/_async.php on line 39
+[03-Feb-2016 08:51:08 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[03-Feb-2016 08:51:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/polli/public_html/dev/bergerz/wp/wp-content/plugins/owd-site-statistics/lib/_async.php on line 39
